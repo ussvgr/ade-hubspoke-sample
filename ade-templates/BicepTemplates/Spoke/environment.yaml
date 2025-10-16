@@ -1,4 +1,4 @@
-name: Virtual Network with Hub Peering
+name: Spoke
 summary: Virtual Network with IPAM Pool Integration and Hub VNet Peering
 description: Deploys an Azure Virtual Network managed by IPAM pool with automatic IP allocation and automatic peering to hub VNet
 runner: Bicep
