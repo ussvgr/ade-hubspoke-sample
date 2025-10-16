@@ -6,7 +6,7 @@ templatePath: main.bicep
 parameters:
 - id: "applicationName"
   name: "Application Name"
-  description: "Name of the application (used for naming VNet and subnet)""
+  description: "Name of the application (used for naming VNet and subnet)"
   type: "string"
 - id: "locationName"
   name: "Location"
