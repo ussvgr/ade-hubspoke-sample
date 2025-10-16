@@ -6,12 +6,12 @@ description: Deploys an Azure Virtual Network managed by IPAM pool with automati
 runner: Bicep
 templatePath: main.bicep
 parameters:
-- id: applicationName
-  name: Application Name
-  description: Name of the application (used for naming VNet and subnet)
-  type: string
-- id: locationName
-  name: Location
-  description: Azure region for the virtual network
-  type: string
+- id: "applicationName"
+  name: "Application Name"
+  description: "Name of the application (used for naming VNet and subnet)""
+  type: "string"
+- id: "locationName"
+  name: "Location"
+  description: "Azure region for the virtual network"
+  type: "string"
   default: "[resourceGroup().location]"
