@@ -13,4 +13,3 @@ parameters:
   name: "Location"
   description: "Azure region for the virtual network"
   type: "string"
-  default: "[resourceGroup().location]"
