@@ -1,22 +1,17 @@
 # yaml-language-server: $schema=https://github.com/Azure/deployment-environments/releases/download/2022-11-11-preview/manifest.schema.json
 
 name: IPAM-Managed Virtual Network with Hub Peering
-version: 1.0.0
 summary: Virtual Network with IPAM Pool Integration and Hub VNet Peering
 description: Deploys an Azure Virtual Network managed by IPAM pool with automatic IP allocation and automatic peering to hub VNet
 runner: Bicep
 templatePath: main.bicep
-
 parameters:
-  - id: applicationName
-    name: Application Name
-    description: Name of the application (used for naming VNet and subnet)
-    type: string
-    required: true
-
-  - id: locationName
-    name: Location
-    description: Azure region for the virtual network
-    type: string
-    required: false
-    default: "[resourceGroup().location]"
+- id: applicationName
+  name: Application Name
+  description: Name of the application (used for naming VNet and subnet)
+  type: string
+- id: locationName
+  name: Location
+  description: Azure region for the virtual network
+  type: string
+  default: "[resourceGroup().location]"
