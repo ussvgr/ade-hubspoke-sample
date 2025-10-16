@@ -1,4 +1,3 @@
-# yaml-language-server: $schema=https://github.com/Azure/deployment-environments/releases/download/2022-11-11-preview/manifest.schema.json
 name: IPAM-Managed Virtual Network with Hub Peering
 summary: Virtual Network with IPAM Pool Integration and Hub VNet Peering
 description: Deploys an Azure Virtual Network managed by IPAM pool with automatic IP allocation and automatic peering to hub VNet
